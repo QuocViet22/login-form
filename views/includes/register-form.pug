@@ -1,0 +1,24 @@
+form(method="post" action="/register")
+    table 
+        tr
+            td Username 
+            td 
+                input(type="text" name="username" required="required")
+        tr 
+            td Fullname 
+            td 
+                input(type="text" name="fullname" required="required")
+        tr 
+            td Password 
+            td 
+                input(type="password" name="password" required="required")
+        tr 
+            //- td Confirm password 
+            td Salt personal
+            td 
+                //- input(type="password" name="confirm-password" required="required")
+                input(type="text" name="saltpersonal" required="required")
+        tr 
+            td
+            td
+                input(type="submit" value="Register")

@@ -1,0 +1,31 @@
+{
+  "name": "login-register",
+  "version": "1.0.0",
+  "description": "Simple Login/Register app in nodejs with mysql",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "keywords": [
+    "nodejs",
+    "login",
+    "register",
+    "mysql",
+    "app"
+  ],
+  "bugs": {},
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "util.promisify": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
